@@ -1,0 +1,90 @@
+#footer{
+    height: 30vw;
+    width: 100%;
+    padding-top: 1vw;
+    background-color: rgb(12, 34, 32);
+}
+
+#footer2{
+    margin-top: 15vw;
+    height: 20vw;
+    width: 100%;
+    background-color: rgb(12, 34, 32);
+}
+
+.textFooter p:first-child{
+    padding-top: 12%;
+}
+
+.textFooter p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 3vw;
+    font-size: 2.5vw;
+}
+
+.footerBox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 30% 2% 30%;
+}
+
+.textFooter2 p:first-child{
+    padding-top: 12%;
+}
+
+.textFooter2 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 3vw;
+    font-size: 2.5vw;
+}
+
+.footerBox2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 30% 2% 30%;
+}
+
+.linkedin, .ig, .yt{
+    height: 4.5vw;
+    width: 4.5vw;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+.linkedin{
+    background-image: url(../Asset/lkdin.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linkedin:hover{
+    opacity: 60%;
+}
+
+.ig{
+    background-image: url(../Asset/ig.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ig:hover{
+    opacity: 60%;
+}
+
+.yt{
+    background-image: url(../Asset/ytb.png);
+    background-size: 165%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yt:hover{
+    opacity: 60%;
+}

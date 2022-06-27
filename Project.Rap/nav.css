@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 18px;
+}
+
+#navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    padding-left: 2%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #2b2b2b;
+}
+
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.logo a:hover{
+    opacity: 65%;
+}
+
+.logoPic{
+    background-image: url(../Asset/logo.png);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5vw;
+    height: 5vw;
+}
+
+.logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.7em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li a{
+    color: white;
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.nav a{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav a:hover{
+    opacity: 65%;
+}
+
+@media screen and (max-width: 700px) {
+    .logoPic{
+        display: none;
+    }
+
+    .nav{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100px;
+        padding-right: 2%;
+    }
+
+    .navitem{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .nav{
+        height: 120px;
+    }
+
+    .navitem{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .nav ul li a{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .nav{
+        height: 170px;
+    }
+
+    .nav ul{
+        flex-direction: column;
+    }
+
+    .navitem{
+        margin-bottom: 10px;
+    }
+
+    .nav ul li a{
+        font-size: 0.75em;
+    }
+}
